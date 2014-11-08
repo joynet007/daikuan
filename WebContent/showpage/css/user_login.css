@@ -1,0 +1,241 @@
+@charset "GBK";
+.user_login_main{
+	width:978px;
+	margin:0 auto;
+	border:1px solid #dfdfdd;
+	overflow: hidden;
+	font-size: 14px;
+}
+.user_login_main ul.login_head{
+	padding:4px 10px;
+	height: 40px;
+	margin-bottom: 20px;
+}
+.user_login_main ul.login_head li{
+	border-bottom: 2px solid #183BC9;
+	float: left;
+	color: #183BC9;
+	width:945px;
+	font-size: 18px;
+	font-weight: bold;
+	line-height: 40px;
+	text-align: center;
+}
+.user_login_main ul.login_head li.cur{
+	border-bottom: 2px solid #F26A18;
+	color: #F26A18;
+}
+/*user_login_message ------start*/
+.user_login_main .login_main_content .login_message{
+	width:573px;
+	padding-left: 100px;
+	background: url(../images/line.gif) no-repeat 670px 0px; 
+}
+.user_login_main .login_main_content .login_message li{
+	line-height: 32px;
+	padding:5px 0;
+	overflow: hidden;
+}
+.user_login_main .login_main_content .login_message li span{
+	margin-right: 8px;
+	width:60px;
+	text-align: right;
+	float: left;
+}
+.user_login_main .login_main_content .login_message li ul{
+	overflow: hidden;
+}
+.user_login_main .login_main_content .login_message li ul li{
+	float: left;
+	width:88px;
+	height:18px;
+	background: #eee;
+	line-height: 18px;
+	text-align: center;
+}
+.user_login_main .login_main_content .login_message li ul li.cur{
+	background: #F26A18;
+}
+.user_login_main .login_main_content .login_message li span.recommend{
+	width:235px;
+	font-size: 12px;
+	color:#F82626;
+}
+.user_login_main .login_main_content .login_message li a{
+	background: url(../images/yzm.png) no-repeat 9px 0px;
+	padding-left: 62px;
+	width:168px;
+	height:30px;
+	float: left;
+}
+.user_login_main .login_main_content .login_message li a:link,.user_login_main .login_main_content .login_message li a:visited{
+	color: #333;
+}
+.user_login_main .login_main_content .login_message li a:hover{
+	color:#b51e21;
+}
+.user_login_main .login_main_content .login_message li i{
+	float: right;
+	width:190px;
+	height: 24px;
+	padding-left: 30px;
+	line-height: 24px;
+	font-style: normal;
+	margin-left: 10px;
+	background:url(../images/wrong.gif) no-repeat 3px 3px;
+	color: #F82626;
+	font-size: 12px;
+	display: none;
+}
+.user_login_main .login_main_content .login_message li i.cur{
+	display: block;
+}
+.user_login_main .login_main_content .login_message li input{
+	float: left;
+	width:258px;
+	height:30px;
+}
+.user_login_main .login_main_content .login_message li.radio_but{
+	position: relative;
+	padding-left: 78px;
+	width:200px;
+}
+.user_login_main .login_main_content .login_message li.radio_but a{
+	background: none;
+	padding-left: 0;
+}
+.user_login_main .login_main_content .login_message li.radio_but input{
+	width:16px;
+	height:16px;
+	_font-size:0;	
+	position: absolute;
+	width:30px;
+	top:14px;
+	_top:44px;
+	left:47px;
+}
+.user_login_main .login_main_content .login_message li.list_last{
+	padding-left: 120px;
+	margin:10px 0;
+}
+.user_login_main .login_main_content .login_message li.list_last input{
+	width:142px;
+	height: 32px;
+	color: #fff;
+	line-height: 32px;
+	cursor: pointer;
+	background: url(../images/agree_but.gif) no-repeat 0px 0px;
+	border:none;
+}
+.user_login_main .login_main_content .login_message li.list_last input.cur{
+	background: url(../images/agree_but_hover.gif) no-repeat 0px 0px;
+}
+/*right_part_style---------start*/
+.user_login_main .login_main_content ul.login_right{
+	_cleat:both;
+	width:224px;
+	padding-top: 50px;
+	padding-right: 52px;
+}
+.user_login_main .login_main_content ul.login_right li{
+	line-height: 30px;
+	padding:5px 0;
+}
+.user_login_main .login_main_content ul.login_right li a:link,.user_login_main .login_main_content ul.login_right li a:visited{
+	color: #183BC9;
+}
+.user_login_main .login_main_content ul.login_right li.qq a:link,.user_login_main .login_main_content ul.login_right li.qq a:visited,
+.user_login_main .login_main_content ul.login_right li.sina a:link,.user_login_main .login_main_content ul.login_right li.sina a:visited{
+	color: #333;
+}
+.user_login_main .login_main_content ul.login_right li.qq a:hover,
+.user_login_main .login_main_content ul.login_right li.sina a:hover{
+	color:#b51e21;
+}
+.user_login_main .login_main_content ul.login_right li a:hover{
+	color:#b51e21;
+}
+.user_login_main .login_main_content ul.login_right li.qq{
+	background: url(../images/qq_n.png) no-repeat 0px 13px;
+	padding-left: 22px;
+}
+.user_login_main .login_main_content ul.login_right li.sina{
+	background: url(../images/sina_n.png) no-repeat 0px 13px;
+	padding-left: 22px;
+}
+/*email yanzheng -------style*/
+.user_login_main .message_verify{
+	width:300px;
+	margin:0 auto;
+	display:block;
+}
+.user_login_main .message_verify ul.verify_tab{
+	overflow: hidden;
+	margin-bottom: 20px;
+	height: 30px;
+}
+.user_login_main .message_verify ul.verify_tab li{
+	float: left;
+	width:130px;
+	height: 30px;
+	margin-right: 18px;
+	background: #ccc;
+	line-height: 30px;
+	font-size: 16px;
+	color: #fff;
+	text-align: center;
+	cursor:pointer;
+}
+.user_login_main .message_verify ul.verify_tab li.cur{
+	background: #F26A18;
+}
+.user_login_main .message_verify .pe_verify{
+	line-height: 38px;
+	padding:5px 0 18px 0;
+	overflow: hidden;
+	display: none;
+}
+.user_login_main .message_verify .pe_verify p{
+	margin-bottom: 10px;
+}
+.user_login_main .message_verify .pe_verify p input{
+	height: 24px;
+}
+.user_login_main .message_verify .pe_verify.cur{
+	display: block;
+}
+.user_login_main .message_verify .pe_verify ul li{
+	float: left;
+	margin-right: 18px;
+}
+.user_login_main .message_verify .pe_verify ul li input{
+	width:107px;
+	height:34px;
+	cursor: pointer;
+	border:0;
+	background: url(../images/email_message.gif) no-repeat 0px 0px;
+	color: #fff;
+}
+.user_login_main .message_verify .pe_verify ul li input.cur{
+	background: url(../images/email_message_hover.gif) no-repeat 0px 0px;
+}
+/*login_success------start*/
+.user_login_main .login_success{
+	width: 300px;
+	margin:0 auto;
+	padding:80px 0 80px 116px;
+	background: url(../images/success.gif) no-repeat 0px 57px;
+	line-height: 30px;
+	/**display: none;**/
+}
+.user_login_main .login_success p a:link,
+.user_login_main .login_success p a:visited{
+	color:#183BC9
+}
+.user_login_main .login_success p a:hover{
+	color: #F26A18;
+}
+.user_login_main .login_success p span{
+	font-size: 18px;
+	font-weight: bold;
+}

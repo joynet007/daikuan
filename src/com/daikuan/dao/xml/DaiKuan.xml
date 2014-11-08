@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>  
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd"> 
+<mapper namespace="com.daikuan.dao.DaiKuanDao">    
+	
+	
+	<insert id="createDaiKuan" parameterType="com.daikuan.model.DaiKuan" >
+		insert into dk_daikuan( daikuanID , daikuanTitle , daikuanType , daikuanYongTu , daikuanZhuTi , 
+								amount , qixian , shouYilv , youxiaoqi , huanKuanType , daikuanUserID , createTime ) 
+		               values (  #{daikuanID} , #{daikuanTitle} , #{daikuanType} , #{daikuanYongTu} , #{daikuanZhuTi} ,
+		             			#{amount} , #{qixian} , #{shouYilv} , #{youxiaoqi} , #{huanKuanType} , #{daikuanUserID} , #{createTime} );
+	</insert>
+	
+	<select id="findDaikan" resultType="com.daikuan.model.DaiKuan">
+		select * from dk_daikuan t order by t.createTime DESC LIMIT 0 , 10;
+	</select>
+	
+	
+	<select id="getDaiKuanByID" parameterType="java.lang.String" resultType="com.daikuan.dao.DaiKuanDao" >
+		select * dk_daikuan t where t.daikuanID = #{daikuanID};	
+	</select>
+	<!-- 
+	 -->
+</mapper>

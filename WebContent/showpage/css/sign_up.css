@@ -1,0 +1,167 @@
+@charset "GBK";
+/*sign_up ------start*/
+.sign_up_main{
+	width: 980px;
+	margin: 10px auto 0 auto;
+	overflow: hidden;
+}
+.sign_up_main .sign_up_head .borrow_message{
+	border:1px solid #dfdfdd;
+	margin-right: 20px;
+}
+.sign_up_main .sign_up_head .borrow_message h5{
+	font-size: 14px;
+	width: 161px;
+	text-align: center;
+	line-height: 32px;
+}
+.sign_up_main .sign_up_head .borrow_message span{
+	display: block;
+	width: 66px;
+	height: 66px;
+	padding-left: 44px;
+	margin-bottom: 12px;
+}
+.sign_up_main .sign_up_head .borrow_message span img{
+	width: 100%;
+	height: 100%;
+	padding:3px;
+	border:1px solid #dfdfdd;
+}
+.sign_up_main .sign_up_head .borrow_message p{
+	line-height: 28px;
+	padding-left: 10px;
+}
+.sign_up_main .sign_up_head .borrow_message ul{
+	padding-left: 10px;
+}
+.sign_up_main .sign_up_head .borrow_message ul li{
+	
+	float: left;
+	width:25px;
+	height: 30px;
+	margin-right: 4px;
+}
+.sign_up_main .sign_up_head .borrow_message ul li.img01{
+	background: url(../images/card.gif) no-repeat;
+	width: 37px;
+}
+.sign_up_main .sign_up_head .borrow_message ul li.img02{
+	background: url(../images/tel02.gif) no-repeat;
+}
+.sign_up_main .sign_up_head .borrow_message ul li.img03{
+	background: url(../images/email.gif) no-repeat;
+}
+.sign_up_main .sign_up_head .borrow_message ul li.img04{
+	background: url(../images/person01.png) no-repeat;
+}
+.sign_up_main .sign_up_head .borrow_title{
+	border:1px solid #dfdfdd;
+	padding: 10px;
+	padding-bottom: 0;
+	width: 775px;
+}
+.sign_up_main .sign_up_head .sign_up_but{
+	position: relative;
+}
+.sign_up_main .sign_up_head .sign_up_but a{
+	display: block;
+	width:88px;
+	height: 30px;
+	background: url(../images/but.png) no-repeat;
+	position: absolute;
+	top:-110px;
+	right:50px;
+	color: #fff;
+	text-align: center;
+	line-height: 30px;
+	font-size: 14px;
+}
+.sign_up_main .sign_up_head .sign_up_but a:hover{
+	color: #fb6820;
+}
+.sign_up_main .sign_up_head .borrow_title h5{
+	font-size: 16px;
+	font-weight: bold;
+	line-height: 30px;
+	_line-height:39px;
+}
+.sign_up_main .sign_up_head .borrow_title ul li{
+	float: left;
+	width:157px;
+}
+.sign_up_main .sign_up_head ul li span{
+	display: block;
+	line-height: 26px;
+	font-size: 14px;
+}
+.sign_up_main .sign_up_head .borrow_title ul.borrow_detail li{
+	line-height: 26px;
+	width:100%;
+	position: relative;
+}
+.sign_up_main .sign_up_head .borrow_title ul.borrow_detail li span.jdt{
+	display: block;
+	position: absolute;
+	top:-4px;
+	left:58px;
+	width:10px;
+	height: 8px;
+	_font-size:0;
+	background: url(../images/jdt.png) no-repeat;
+}
+.sign_up_main .sign_up_head .borrow_title ul.borrow_detail li span{
+	display: inline;
+}
+.sign_up_main .sign_up_head .borrow_title ul.borrow_detail li span.fl{
+	width:100px;
+	height: 28px;
+	background: pink;
+}
+/*sing_up_content  start*/
+.sign_up_main .sing_up_content{
+	border:1px solid #dfdfdd;
+}
+.sign_up_main .sing_up_content ul{
+	line-height: 30px;
+	font-size: 14px;
+	font-weight: bold;
+	background: #F5F5F5;
+	height: 30px;
+	padding-left: 10px;
+}
+.sign_up_main .sing_up_content ul li{
+	float: left;
+	width: 130px;
+	text-align: center;
+	cursor: pointer;
+}
+.sign_up_main .sing_up_content ul li.cur{
+	background: url(../images/borrow-hover.png) repeat-x;
+	color: #fff;
+}
+.sign_up_main .sing_up_content .ul_content{
+	display: none;
+	padding-left: 20px;
+}
+.sign_up_main .sing_up_content .ul_content.cur{
+	display: block;
+}
+.sign_up_main .sing_up_content .ul_content table tbody tr{
+	line-height: 40px;
+}
+.sign_up_main .sing_up_content .ul_content table tbody tr td{
+	width: 120px;
+}
+.sign_up_main .sing_up_content .ul_content p{
+	line-height: 30px;
+	padding:5px 0px;
+	color:#AE0408;
+}
+.sign_up_main .sing_up_content .content_wid table tbody tr td{
+	width:200px;
+	line-height: 30px;
+}
+.sign_up_main .sing_up_content .content_wid table tbody tr td span{
+	display: block;
+}

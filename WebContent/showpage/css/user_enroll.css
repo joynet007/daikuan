@@ -1,0 +1,91 @@
+@charset "GBK";
+/*µÇÂ½Ò³ÃæÑùÊ½*/
+.user_enroll_main{
+	width:910px;
+	margin: 0 auto;
+	overflow: hidden;
+	padding: 40px 50px 0 20px;
+	font-family: "Î¢ÈíÑÅºÚ";
+	font-size: 14px;
+	color:#333;
+}
+.user_enroll_main .main_img{
+	background: url(../images/login_form.jpg) no-repeat;
+	width:387px;
+	height:394px;
+}
+.user_enroll_main .enroll_form{
+	width:324px;
+	height:388px;
+	border:1px solid #dfdfdd;
+	padding:0 20px 0 20px;
+}
+.user_enroll_main .enroll_form h3{
+	font-size: 16px;
+	font-weight: bold;
+	line-height: 40px;
+	border-bottom: 1px solid #dfdfdd;
+	margin-bottom: 50px;
+	padding:0 8px 0 8px;
+}
+.user_enroll_main .enroll_form h3 span{
+	padding-right: 100px;
+}
+.user_enroll_main .enroll_form h3 a:link,.user_enroll_main .enroll_form h3 a:visited{
+	color:#333;
+	font-size: 14px;
+}
+.user_enroll_main .enroll_form h3 a:hover{
+	color:#F26A18;
+}
+.user_enroll_main .enroll_form p{
+	line-height: 34px;
+	padding:8px 0;
+}
+.user_enroll_main .enroll_form p input{
+	height: 24px;
+}
+.user_enroll_main .enroll_form p.yzm{
+	position: relative;
+
+}
+.user_enroll_main .enroll_form p.yzm a{
+	padding-left: 55px;
+	display: block;
+	position: absolute;
+	top:3px;
+	right:12px;
+	background: url(../images/yzm.png) no-repeat;
+}
+.user_enroll_main .enroll_form p.enroll_but{
+	padding-left: 57px;
+	padding-top:30px;
+}
+.user_enroll_main .enroll_form p.enroll_but input{
+	color: #fff;
+	background: url(../images/email_message.gif) no-repeat 0px 2px;
+	border:0;
+	width:109px;
+	font-size: 14px;
+	height:38px;
+	cursor:pointer;
+}
+.user_enroll_main .enroll_form p.enroll_but a:hover input{
+	background: url(../images/email_message_hover.gif) no-repeat 0px 2px;
+}
+.user_enroll_main .enroll_form p .qq{
+	background: url(../images/qq_n.png) no-repeat 31px 2px ;
+	padding-left: 50px;
+	margin-right: 20px;
+}
+.user_enroll_main .enroll_form p .sina{
+	background: url(../images/sina_n.png) no-repeat 2px 2px ;
+	padding-left: 20px;
+}
+.user_enroll_main .enroll_form p a:link,.user_enroll_main .enroll_form p a:visited{
+	color:#333;
+}
+.user_enroll_main .enroll_form p a:hover{
+	color:#F26A18;
+}
+

@@ -1,0 +1,262 @@
+@charset "GBK";
+/*slidebar   ------start*/
+.account_main {
+	width:980px;
+	margin:0 auto;
+	font-size: 12px;
+	font-family: "微软雅黑";
+}
+.account_main .sliderbar{
+	width:190px;
+	float: left;
+	margin-right: 22px;
+}
+.account_main .sliderbar ul{
+	border:1px solid #dfdfdd;	
+	margin-bottom: 8px;
+}
+.account_main .sliderbar ul li{
+	line-height: 26px;
+	padding:3px 0 3px 20px;
+	background: url(../images/account_list.png) no-repeat 11px 11px;
+}
+.account_main .sliderbar ul li.list_title{
+	font-size: 16px;
+	width:178px;
+	background: #F26A18;
+	height:30px;
+	line-height: 30px;
+	padding-left:10px;
+	font-weight: bold;
+	color:#fff;
+}
+.account_main .sliderbar ul li a:link,
+.account_main .sliderbar ul li a:visited{
+	color:#333;
+}
+.account_main .sliderbar ul li a:hover{
+	color:#F26A18;
+}
+/*slidebar   ------end*/
+/*main_content   ------start*/
+.account_main .account_main_content{
+	float: right;
+	width:768px;
+}
+.account_main .account_main_content .main_content_title{
+	font-size: 16px;
+	font-weight: bold;
+	height: 50px;
+	line-height:50px;
+	_line-height:50px;
+	padding-left: 50px;
+}
+.account_main .account_main_content .main_content_title b{
+	color:#ff6600;
+	font-family: "Arial";
+	margin-right: 30px;
+}
+.account_main .account_main_content .main_content_title a input{
+	border:0;
+	color: #fff;
+	width:64px;
+	height:23px;
+	line-height: 23px;
+	font-weight: bold;
+	margin-right: 10px;
+	background: url(../images/myaccount_but.png) no-repeat;
+	font-family: "微软雅黑","宋体";
+	font-size: 16px;
+	cursor:pointer;
+}
+.account_main .account_main_content .main_content_title a:hover input{
+	color:#AE0408;
+}
+.account_main .account_main_content .main_content_title input.tixian{
+	margin-right: 50px;
+}
+/*¸öÈËÐÅÏ¢*/
+.account_main .account_main_content .person_message{
+	border:1px solid #dfdfdd;
+	background: #FEFEFE;
+	overflow: hidden;
+	margin-bottom: 20px;
+	height: 193px;
+}
+.account_main .account_main_content .person_message p{
+	line-height: 40px;
+	height: 40px;
+	font-size: 14px;
+	padding-left: 10px;
+	overflow: hidden;
+	border-bottom: 1px solid #dfdfdd;
+	margin-bottom: 8px;
+	color:#333;
+	font-weight: bold;
+}
+.account_main .account_main_content .person_message p a{
+	padding:0 10px;
+}
+.account_main .account_main_content .person_message p a:link,
+.account_main .account_main_content .person_message p a:visited{
+	color:#333;
+	font-weight: bold;
+}
+.account_main .account_main_content .person_message p a:hover{
+	color:#F26A18;
+}
+.account_main .account_main_content .person_message .head_img{
+	margin-right: 20px;
+	padding-left: 10px;
+}
+.account_main .account_main_content .person_message ul{
+	padding-bottom: 13px;
+	width:110px;
+}
+.account_main .account_main_content .person_message ul.safe_center{
+	width:220px;
+}
+.account_main .account_main_content .person_message ul.message{
+	width:304px;
+}
+.account_main .account_main_content .person_message ul li{
+	line-height: 26px;
+}
+.account_main .account_main_content .person_message ul li a:link,
+.account_main .account_main_content .person_message ul li a:visited{
+	color:#333;
+}
+.account_main .account_main_content .person_message ul.message li a:link,
+.account_main .account_main_content .person_message ul.message li a:visited{
+	color:#0A60E0;
+}
+.account_main .account_main_content .person_message ul.message li a:hover{
+	color:#AE0408;
+}
+.account_main .account_main_content .person_message ul.message li b.card_grade{
+	background: url(../images/credit_hr.gif) no-repeat 57px 1px;
+	padding:13px 40px 5px 0;
+	_padding:10px 40px 5px 0;
+}
+.account_main .account_main_content .person_message ul li a:hover{
+	color:#F26A18;;
+}
+.account_main .account_main_content .person_message ul li span{
+	font-size: 14px;
+	font-weight: bold;
+}
+.account_main .account_main_content .person_message ul li i{
+	color:#AE0408;
+	font-style: normal;
+	font-size: 18px;
+}
+/*¿ì½ÝÍ¨µÀ*/
+.account_main .account_main_content .person_message ul.fast_gallery li span,
+.account_main .account_main_content .person_message ul.safe_center li span{
+	padding-left: 4px;
+}
+.account_main .account_main_content .person_message ul.fast_gallery li a{
+	display: block;
+	height:26px;
+	background: url(../images/zhcz.png) no-repeat 2px 4px;
+	padding-left: 30px;
+}
+.account_main .account_main_content .person_message ul.fast_gallery li.li_02 a{
+	background: url(../images/sqtx.png) no-repeat 2px 7px;
+}
+.account_main .account_main_content .person_message ul.fast_gallery li.li_03 a{
+	background: url(../images/tzjl.png) no-repeat 2px 4px;
+}
+.account_main .account_main_content .person_message ul.fast_gallery li.li_04 a{
+	background: url(../images/jktj.png) no-repeat 2px 3px;
+}
+/*account_profile start*/
+.account_main .account_main_content .account_profile{
+	border:1px solid #dfdfdd;
+	background: #FEFEFE;
+}
+.account_main .account_main_content .account_profile ul{
+	padding-left:20px;
+}
+.account_main .account_main_content .account_profile p{
+	padding-left:20px;
+	font-weight: bold;
+	font-size: 14px;
+	line-height: 40px;
+	border-bottom:1px solid #dfdfdd;
+}
+.account_main .account_main_content .account_profile .profile_title{
+	font-size: 14px;	
+}
+.account_main .account_main_content .account_profile .profile_title .title_bd{
+	font-size: 20px;
+}
+.account_main .account_main_content .account_profile .profile_title li.title_head span{
+	padding-right: 120px;
+	line-height: 28px;
+}
+.account_main .account_main_content .account_profile .profile_title li.title_head span.span_third{
+	padding-right: 99px;
+}
+.account_main .account_main_content .account_profile .profile_title li.title_bd span{
+	padding-right: 28px;
+	text-align: center;
+	line-height: 36px;
+}
+.account_main .account_main_content .account_profile ul.profile_content li b{
+	color:#F26A18;
+}
+.account_main .account_main_content .account_profile ul.profile_content{
+	overflow: hidden;
+	height: 160px;
+}
+.account_main .account_main_content .account_profile ul.profile_content li{
+	float: left;
+	width:248px;
+	line-height: 30px;
+	padding:4px 0;
+}
+.account_main .account_main_content .account_profile ul.profile_content li b{
+	font-size: 16px;
+	font-weight: normal;
+}
+/*ÕË»§¸Å¿ö   --------end*/
+/*ÊÕÒæÏêÇéºÍ½è¿îÏêÇé ------start*/
+.account_main .account_main_content .income_loan_details{
+	border:1px solid #dfdfdd;
+	overflow: hidden;
+	margin-top: 20px;
+}
+.account_main .account_main_content .income_loan_details p{
+	overflow: hidden;
+	padding: 0 20px;
+	font-weight: bold;
+	font-size: 14px;
+	line-height: 40px;
+	height: 40px;
+	border-bottom: 1px solid #dfdfdd;
+}
+.account_main .account_main_content .income_loan_details p a:link,
+.account_main .account_main_content .income_loan_details p a:visited{
+	color:#333;
+}
+.account_main .account_main_content .income_loan_details p a:hover{
+	color:#F26A18;
+}
+.account_main .account_main_content .income_loan_details ul {
+	padding-left: 20px;
+	overflow: hidden;
+	height: 80px;
+}
+.account_main .account_main_content .income_loan_details ul li{
+	line-height: 30px;
+	padding:4px 0;
+	float: left;
+	width:240px;
+}
+.account_main .account_main_content .income_loan_details ul li b{
+	color:#F26A18;
+	font-weight: normal;
+	font-size: 16px;
+}
+/*main_content   ------end*/

@@ -1,0 +1,273 @@
+/*清除页面的默认样式   start*/
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,p,blockquote,th,td{margin:0; padding:0; } table{border-collapse:collapse; border-spacing:0; }
+fieldset,img{border:0; }
+address,caption,cite,code,dfn,em,strong,th,var{font-style:normal; font-weight:normal; }
+ol,ul{list-style:none; }
+caption,th{text-align:left; }
+h1,h2,h3,h4,h5,h6{font-size:100%; font-weight:normal; }
+q:before,q:after{content:''; }
+abbr,acronym{border:0; font-variant:normal; }
+sup{vertical-align:text-top; }
+sub{vertical-align:text-bottom; }
+input,textarea,select{font-family:inherit; font-size:inherit; font-weight:inherit; *font-size:100%; }
+legend{color:#000; }
+#yui3-css-stamp.cssreset{display:none; }
+/*清除页面的默认样式   end*/
+/*公共样式  -------start*/
+.fl{float: left; }
+.fr{float: right; }
+.h15{height:15px; _font-size:0; }
+.h10{height:10px; _font-size:0; }
+.h30{height:30px; }
+.cl{clear:both; }
+@charset "GBK";
+.tc{text-align: center;}
+.red{color:#AE0408;}
+a:link,a:visited{text-decoration: none; }
+body{
+	font-size: 12px;
+	font-family: "微软雅黑","宋体";
+	color:#333;
+}
+/*公共样式  -------end*/
+/*浮动广告 -------start*/
+*html{
+	background-image:url(about:blank);
+	background-attachment:fixed;
+}
+.float{
+	width:104px;
+	height:290px;
+	_height:310px;
+	padding-top: 10px;
+	background: #ECECEC;
+	position:fixed;
+	_position:absolute;
+	_bottom:auto;
+	_top:expression(eval(document.documentElement.scrollTop));
+	top:10px;
+	right:10px;
+	z-index:9;
+}
+.float span#close{
+	position: absolute;
+	background: #acc5db;
+	width:14px;
+	height:14px;
+	right:0;
+	top:0;
+	color: #fff;
+	font-weight: bold;
+	line-height: 14px;
+	font-size: 12px;
+	text-align: center;
+	cursor:pointer;
+}
+.float ul li{
+	text-align: center;
+	line-height: 30px;
+	font-size: 12px;
+}
+.float ul li span.tel_num{
+	font-family: "Arial";
+	font-size: 14px;
+	color:#ffcc33;
+	font-weight: bold;
+}
+.float ul li span.pic_QQ{
+	display: block;
+	background: url(../images/pic_QQ.gif) no-repeat center center;
+	width:104px;
+	height: 22px;
+	text-indent: -999em;
+	cursor:pointer;
+}
+.float ul li span.ewm_img{
+	margin-left: 16px;
+	_margin-left:3px;
+	display: block;
+	background: url(../images/erweima.jpg) no-repeat center center;
+	width:74px;
+	height: 74px;
+}
+/*浮动广告 -------end*/
+/*头部样式----------start*/
+.header .top_part{
+	background: url(../images/header_top_bg.png) repeat-x;
+	width:100%;
+	height:31px;
+}
+.header .top_part .top_part_inner{
+	width:980px;
+	margin:0 auto;
+	line-height: 31px;
+}
+.header .top_part .top_part_inner p{
+	float: left;
+}
+.header .top_part .top_part_inner .button{
+	float: right;
+}
+.header .top_part .top_part_inner .button a{
+	margin-right: 6px;
+}
+.header .top_part .top_part_inner .button a:link,
+.header .top_part .top_part_inner .button a:visited{
+	color:#333;
+}
+/*nav======start*/
+.header .nav{
+	background: url(../images/nav.png) repeat-x;
+	width:100%;
+	height:40px;
+}
+.header .nav ul.nav_content{
+	width:980px;
+	margin:0 auto;
+}
+.header .nav ul.nav_content li.fuli{
+	float: left;
+	width:120px;
+	height:40px;
+	position: relative;
+	z-index:5;
+}
+.header .nav ul.nav_content li.fuli.cur{
+	background: url(../images/nav-hover.png) no-repeat;
+}
+.header .nav ul.nav_content li.fuli a.fu_a{
+	display: block;
+	width:120px;
+	background: url(../images/nav-line.png) no-repeat;
+	height: 40px;
+}
+.header .nav ul.nav_content li.fuli a:link,.header .nav ul.nav_content li.fuli a:visited{
+	line-height: 40px;
+	font: 16px/40px "微软雅黑","宋体";
+	color:#fff;
+	text-decoration: none;
+	text-align: center;
+}
+/*子导航*/
+.header .nav ul.nav_content li.fuli .menu{
+	width:120px;
+	background: #F1F1F0;
+	position: absolute;
+	_top:40px;
+	_left:0px;
+	z-index:3;
+	display: none;
+}
+.header .nav ul.nav_content li.fuli .menu li{
+	line-height: 20px;
+	padding-bottom:3px;
+	height:30px;
+}
+.header .nav ul.nav_content li.fuli .menu li a{
+	display: block;
+	width:120px;
+}
+.header .nav ul.nav_content li.fuli .menu li a:link,
+.header .nav ul.nav_content li.fuli .menu li a:visited{
+	color:#3c3c3c;
+	font-size: 12px;
+	text-align: center;
+}
+.header .nav ul.nav_content li.fuli .menu li a:hover{
+	color:#BC0304;
+}
+.header .center_part{
+	width:980px;
+	margin:0 auto;
+	padding: 20px 0 8px 0;
+}
+.header .center_part h1{
+	text-indent: -999em;
+	background: url(../images/logo.gif) no-repeat;
+	width:474px;
+	height:62px;
+	float: left;
+}
+.header .center_part .hotline{
+	float: right;
+	width:240px;
+	background: url(../images/tel.png) no-repeat 0px 19px;
+	padding-left: 28px;
+	padding-top: 20px;
+	height:40px;
+	font-size: 16px;
+	color:#3c3c3c;
+}
+.header .center_part .hotline .telNumber{
+	color:#b51e21;
+	font-size: 18px;
+}
+/*头部样式----------end*/
+/*footer-----------start*/
+.footer{
+	background: url(../images/footer_bg.png) repeat-x;
+	width:100%;
+	height:197px;
+	color:#fff;
+	font-size: 14px;
+	margin-top: 20px;
+}
+.footer .footer_content{
+	width:980px;
+	margin:0 auto;
+}
+.footer .footer_content .footer_left{
+	float: left;
+}
+.footer .footer_content .footer_left li{
+	padding-top:25px;
+}
+.footer .footer_content .footer_left li.copyRight{
+	_padding-top: 15px;
+}
+.footer .footer_content .footer_left li.list01 a{
+	margin-right: 20px;
+}
+.footer .footer_content .footer_left li.list01 a:link,
+.footer .footer_content .footer_left li.list01 a:visited{
+	font-size: 14px;
+	color:#fff;
+}
+.footer .footer_content .footer_left li.list01 a:hover{
+	color:#fb6820;
+}
+.footer .footer_content .footer_left li.list02{
+	overflow: hidden;
+}
+.footer .footer_content .footer_left li.list02 a span{
+	margin-right: 30px;
+	float: left;
+	text-indent: -999em;
+	height:30px;
+}
+.footer .footer_content .footer_left li.list02 a span.sinWb{
+	background: url(../images/sinWb.png) no-repeat 0px 0px;
+	width:98px;
+}
+.footer .footer_content .footer_left li.list02 a:hover span.sinWb{
+	background: url(../images/sinWb_hover.png) no-repeat -1px 0px;
+}
+.footer .footer_content .footer_left li.list02 a span.sinWx{
+	background:url(../images/sinWx.png) no-repeat 0 0;
+	width:91px;
+}
+.footer .footer_content .footer_left li.list02 a:hover span.sinWx{
+	background:url(../images/sinWx_hover.png) no-repeat 0px 0px;
+}
+.footer .footer_content .footer_left li.list02 a span.safe360{
+	background:url(../images/safe360.png) no-repeat;
+	width:127px;
+	height:47px;
+}
+.footer .footer_content .footer_right{
+	width:267px;
+	height:122px;
+	float: right;
+	padding-top: 30px;
+}
+/*footer-----------end*/
