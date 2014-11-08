@@ -6,3 +6,4 @@ CREATE TABLE `dk_user` (
   `userType` varchar(50) NOT NULL,
   PRIMARY KEY (`userID`)
 ) ENGINE=InnoDB DEFAULT CHARSET=gbk;
+
